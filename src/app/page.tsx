@@ -1,4 +1,5 @@
 import BarraSuperior from "./widgets/BarraSuperior";
+import GaleriaProdutos from "./widgets/GaleriaProdutos";
 import MenuNavegacao from "./widgets/MenuNavegacao";
 
 export default function Home() {
@@ -8,6 +9,10 @@ export default function Home() {
         <BarraSuperior />
         <MenuNavegacao />
       </header>
+
+      <main>
+        <GaleriaProdutos />
+      </main>
     </div>
   );
 }
